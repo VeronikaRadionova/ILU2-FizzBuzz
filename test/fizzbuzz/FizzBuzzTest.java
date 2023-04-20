@@ -12,8 +12,12 @@ class FizzBuzzTest {
 	}
 	
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void fizz_un() {
+	}
+	
+	@Test
+	void fizz_deux() {
+		assertEquals(FizzBuzz.fizzbuzz(2), "2");
 	}
 
 }
